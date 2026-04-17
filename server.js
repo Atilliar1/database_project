@@ -289,7 +289,6 @@ app.get('/students', async (req, res) => {
         <input type="hidden" name="DOB" value="${escapeHtml(s.DOB)}">
         <input type="hidden" name="phone" value="${escapeHtml(s.phone)}">
         <input type="hidden" name="address" value="${escapeHtml(s.address)}">
-        <button>Quick Save</button>
       </form>
       <form class="inline" method="POST" action="/students/delete" onsubmit="return confirm('Delete this student?')">
         <input type="hidden" name="StudentID" value="${s.StudentID}">
