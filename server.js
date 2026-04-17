@@ -742,14 +742,14 @@ app.get('/views', async (req, res) => {
   const body = `
     <h1>Views</h1>
     <div class="card">
-      <h2>StudentEnrollmentView</h2>
+      <h2>Student Enrollment View</h2>
       ${renderTable(
         ['Student ID', 'Student', 'Class ID', 'Class Name', 'Enrollment Date'],
         studentEnrollmentView.map(v => [escapeHtml(v.StudentID), escapeHtml(v.sname), escapeHtml(v.MAID), escapeHtml(v.ClassName), escapeHtml(v.Enroll_Date)])
       )}
     </div>
     <div class="card section-gap">
-      <h2>InstructorAssignmentView</h2>
+      <h2>Instructor Assignment View</h2>
       ${renderTable(
         ['Instructor ID', 'Instructor', 'Class ID', 'Class Name'],
         instructorAssignmentView.map(v => [escapeHtml(v.InstructorID), escapeHtml(v.iname), escapeHtml(v.MAID), escapeHtml(v.ClassName)])
