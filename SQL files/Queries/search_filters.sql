@@ -13,7 +13,7 @@ SELECT * FROM Students;
 -- Search students by partial name
 SELECT *
 FROM Students
-WHERE sname LIKE '%Jon%';
+WHERE sname LIKE '%Ri%';
 
 -- Find all students enrolled in Karate
 SELECT s.StudentID, s.sname, m.name AS ClassName, e.Enroll_Date
