@@ -1,6 +1,6 @@
 -- =========================================================
 -- This code was created by Group 48: Riley Parkin, Jonathon Hurley, and Ryan Acevedo
--- MARTIAL ARTS SCHOOL MANAGEMENT DATABASE
+-- MARTIAL ARTS SCHOOL MANAGEMENT DATABASE SCHEMA
 -- MartialArts = class offerings
 -- =========================================================
 
