@@ -30,6 +30,7 @@ CREATE TABLE Instructors (
     address VARCHAR(150)
 );
 
+-- MAID is auto incremented. SQL automatically assigns it a unique number
 CREATE TABLE MartialArts (
     MAID INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL UNIQUE
